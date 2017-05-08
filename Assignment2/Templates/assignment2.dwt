@@ -8,13 +8,14 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../assignment2.css" rel="stylesheet" type="text/css">
+<link href="../css/assignment2.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <h1>Fish-Tastic</h1>
 <div id="navbar">
 	<ul>
-		<li><a href="">Home</a></li>
+		<li><a href="../index.html">Home</a></li>
 		<li><a href="">About Us</a></li>
 		<li><a href="">Our Fish</a></li>
 		<li><a href="">Products</a></li>
@@ -24,8 +25,11 @@
 		<li style="float: right"><a href="" class="active">Order Now</a></li>
 	</ul>
 </div>
+<div id="content"><div class="background">
+	<video id="vid" preload="auto" autoplay="true" loop="loop" muted="muted">
+	 <source src="../backvid.mp4" type="video/mp4"/>
+	</video></div>
 <!-- TemplateBeginEditable name="EditRegion" -->
-<div id="content"></div>
 <div id="footer"><p>&copy; Fish~Tastic.All Right Reserved 2016 &nbsp; &nbsp; &nbsp; &nbsp; April 4,2016 10:35</p> </div>
 <!-- TemplateEndEditable -->
 </body>
