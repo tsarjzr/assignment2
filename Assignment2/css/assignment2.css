@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {font-size: 40px;
+text-align: center;}
+h1 ,p {
+	font-family: Courier new;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+#navbar li {
+    float: left;
+	}
+li, p { font-family: Courier new;}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+    background-color: #111;
+}
+#footer { 
+	text-align: center;
+}
