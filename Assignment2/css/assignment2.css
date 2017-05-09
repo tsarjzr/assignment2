@@ -1,17 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
-h1 {font-size: 40px;
-text-align: center;}
+h1 {font-size: 70px;
+text-align: lef;}
 h1 ,p {
 	font-family: Calibri;
+	font-weight: 850;
 }
+#header{ 
+}
+.logo { float: left;}
 #navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-	
 }
 
 #navbar li {
@@ -74,4 +77,5 @@ li, p { font-family: Calibri;}
 	right: 0;
 	min-height: 100%;
 	min-width: 100%;
+	opacity: 0.85;
 }
