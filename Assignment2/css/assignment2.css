@@ -73,12 +73,31 @@ li, p { font-family: Calibri;}
 	font-family: Calibri;
 	color: #fff;
 }
+#content h3
+{
+	font-family: Calibri;
+}
 #content p {
 	text-align: center;
 	font-size: 24px;
 	color: #fff;
 	font-family: Calibri;
 }
+table {
+	border-collapse: collapse;
+	font-family: Courier New;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+th { text-align: left;
+	 background-color: #4CAF50;
+     color: white;
+     text-align: center;
+}
+tr:hover{background-color: #f5f5f5}
+caption { font-size: 24px;}
 #footer { 
 	text-align: center;
 	background-color: #333;

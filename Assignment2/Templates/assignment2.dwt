@@ -23,8 +23,8 @@
 		<li><a href="../index.html">Home</a></li>
 		<li><div class="dropdown"><a href="../about_us.html" class="dropbtn">About Us</a>
         <div class="dropdown-content">
-        <a href="#">FAQ</a>
-        <a href="#">Company Profile</a>
+        <a href="../faq.html">FAQ</a>
+        <a href="../about_us.html">Company Profile</a>
         </div>
         </div>
         </li>
@@ -38,12 +38,12 @@
 		</li>
 		<li>
 		<div class="dropdown">
-		<a href="" class="dropbtn">Products</a>
+		<a href="../tanks.html" class="dropbtn">Products</a>
 		<div class="dropdown-content">
-        <a href="#">Fish Tanks</a>
-        <a href="#">Medications</a>
-        <a href="#">Fish Food</a>
-        <a href="#">Aquarium Decorations</a>
+        <a href="../tanks.html">Fish Tanks</a>
+        <a href="../meds.html">Medications</a>
+        <a href="../foods.html">Fish Food</a>
+        <a href="../deco.html">Aquarium Decorations</a>
         </div>
 		</div>
 		</li>
