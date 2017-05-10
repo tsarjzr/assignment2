@@ -66,9 +66,17 @@ li, p { font-family: Calibri;}
 #content {
 	z-index: 1000;
 }
+
 #content h4 {
 	text-align: center;
 	font-size: 65px;
+	font-weight: 400;
+	font-family: Calibri;
+	color: #fff;
+}
+#content h2 {
+	text-align: center;
+	font-size: 30px;
 	font-weight: 400;
 	font-family: Calibri;
 	color: #fff;
@@ -78,6 +86,9 @@ li, p { font-family: Calibri;}
 	font-size: 24px;
 	color: #fff;
 	font-family: Calibri;
+}
+.asiatop_SGent{
+	float: right
 }
 #footer { 
 	text-align: center;
