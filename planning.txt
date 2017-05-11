@@ -1,3 +1,12 @@
 Michael:About us, write Goals, Success Evaluation, target audiences
 Mikkel: Draw flowchart(rename home to index), upload plan.html
 Wayne: Template, home page, product page
+
+
+
+Things to do in M2:
+
+ About us - chance fonts to the same, edit color, delete top (company profile + our mission), add picture "asiatop"
+ FAQ - change bold, edit spacing
+ Fish tanks - white text, larger size?, bottom text edit size and color, add picture
+    - rest of the products - insert bottom text from "Fish tanks" site
