@@ -10,3 +10,15 @@ Things to do in M2:
  FAQ - change bold, edit spacing
  Fish tanks - white text, larger size?, bottom text edit size and color, add picture
     - rest of the products - insert bottom text from "Fish tanks" site
+
+
+
+Michael:
+ - Feedback, Services
+      - Feedback: create text area, maximum 100 words.   Submit button -- CREATE FEEDBACK FORM THATS IT! 
+      - Services: improvise (what kind of services that an aquarium business can provide)... etc
+      PUT THIS ON ASSIGNMENT 2 FOLDER - GITHUB 
+Mikkel:
+ - Our fish, events, contact us, references
+ Wayne:
+  - Products, Order now
