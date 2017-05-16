@@ -1,0 +1,103 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/assignment2.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Fish-Tastic</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="assignment2.css" rel="stylesheet" type="text/css">
+<link href="css/assignment2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="header">
+<div id="headbackground">
+<img src="images/logo1.png" width="176" height="130" alt="logo" class="logo"/>
+<h1>Fish-Tastic</h1>
+</div>
+</div>
+<div id="navbar">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><div class="dropdown"><a href="about_us.html" class="dropbtn">About Us</a>
+        <div class="dropdown-content">
+        <a href="faq.html">FAQ</a>
+        <a href="about_us.html">Company Profile</a>
+        </div>
+        </div>
+        </li>
+		<li><div class="dropdown">
+		<a href="" class="dropbtn">Our Fish</a>
+		<div class="dropdown-content">
+        <a href="#">Fresh Water Fish</a>
+        <a href="#">Salt Water Fish</a>
+        </div>
+		</div>
+		</li>
+		<li>
+		<div class="dropdown">
+		<a href="tanks.html" class="dropbtn">Products</a>
+		<div class="dropdown-content">
+        <a href="tanks.html">Fish Tanks</a>
+        <a href="meds.html">Medications</a>
+        <a href="foods.html">Fish Food</a>
+        <a href="deco.html">Aquarium Decorations</a>
+        </div>
+		</div>
+		</li>
+		<li><a href="#">Events</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Service</a></li>
+		<li><a href="#">Feedback</a></li>
+		<li><a href="">References</a></li>
+		<li style="float: right"><a href="" class="active">Order Now</a></li>
+	</ul>
+</div>
+<div class="background">
+	<video id="vid" preload="auto" autoplay loop muted>
+	 <source src="backvid.mp4" type="video/mp4"/>
+	</video></div>
+<!-- InstanceBeginEditable name="EditRegion" -->
+	<div id="content"> </div>
+<form action="" method="post" name="mainForm" id="mainForm" onsubmit="return checkForm();"> </form> 
+    <p>
+    <script type="text/javascript" src="scripts.js"></script>
+<label for="name"> Name:<img src= alt="X" name="nameTick" width="12" height="12"                                        id="nameTick"/><img src="cross.png" width="12" height="12" alt=""/></label>
+            <input type="text" name="name" id="name" size="40" autofocus onKeyUp="nameEntered(this);"/>
+        </p>
+         <div class="notebox" id="output">&nbsp;</div>
+        <br>
+        <label for="login">Login ID:</label>
+        <input type="text" id="login" name="login" size="40" placeholder="Enter Here"/>
+        <br>
+        <label for="email">Your Email Address:</label>
+        <input type="text" name="email" id="email" size="40" style="color:#000000" onFocus="changeStyle(this)"
+               onBlur="changeColor(this, '#990099')" placeholder="example@mail.com"/>
+        <br>
+    <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" size="40" style="color:#000000"
+               onKeyUp="setColourBasedOnLength('phone', 8)"/>
+        <br>
+            <label for="HowOftenVisit">How often do you visit the site?</label>
+        <select name="HowOftenVisit" id="HowOftenVisit">
+            <option value="Never">Never</option>
+            <option value="Few">A few times in total</option>
+            <option value="Monthly">Once or twice a month</option>
+            <option value="Weekly">Once a week</option>
+            <option value="MoreWeekly">More than once a week</option>
+            <option value="MoreDaily">More than once a day</option>
+        </select>
+        <br>
+        
+        
+        
+        
+
+    
+     
+<div id="footer"><p>&copy; Fish~Tastic.All Right Reserved 2016 &nbsp; &nbsp; &nbsp; &nbsp; April 4,2016 10:35</p> </div>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>
