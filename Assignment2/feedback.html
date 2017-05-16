@@ -60,7 +60,10 @@
 	 <source src="backvid.mp4" type="video/mp4"/>
 	</video></div>
 <!-- InstanceBeginEditable name="EditRegion" -->
-	<div id="content"> </div>
+<div id="content"> </div>
+<h1> FEEDBACK </h1>
+<h2> What can we do better for YOU? </h2>
+<h3> Let us know for a CHANCE to WIN prizes! </h3>
 <form action="" method="post" name="mainForm" id="mainForm" onsubmit="return checkForm();"> </form> 
     <p>
     <script type="text/javascript" src="scripts.js"></script>
@@ -90,13 +93,48 @@
             <option value="MoreDaily">More than once a day</option>
         </select>
         <br>
-        
-        
-        
-        
+        <label for="areas">What areas do you visit?<br>
+            (<a href="#" onclick="clearArea(); return false">click here to select all/none</a>)</label>
 
+        <fieldset id="areas">
+            <legend id="areaLegend">Area:</legend>
+            <input name="areaVisited" type="checkbox" id="areaSchedule" value="schedule" onChange="checkArea()"/>
+            <label for="areaSchedule">Products</label>
+            <br>
+            <input name="areaVisited" type="checkbox" id="areaAssignments" value="assignments" onChange="checkArea()"/>
+            <label for="areaAssignments"> Contact Us</label>
+            <br>
+            <input name="areaVisited" type="checkbox" id="areaLinks" value="links" onChange="checkArea()"/>
+            <label for="areaLinks">Events </label>
+        <br>
+        <label>How do you rate the web site? <img src="cross.png" alt="X" name="rateTick" width="12"
+                                                  height="12" id="rateTick"/><br>
+            (<a href="#" onclick="clearRating(); return false">click here to clear selection</a>) </label>
+        <fieldset>
+            <input type="radio" name="siterating" id="sitepoor" value="Poor"
+                   onclick="checkSiteRating(); alert('Please make sure you write comments below about why the site is poor.'); document.mainForm.comments.focus()"/>
+            <label for="sitepoor">Poor - not useful</label>
+            <br>
+            <input type="radio" name="siterating" id="sitegood" value="Good" onclick="checkSiteRating()"/>
+            <label for="sitegood">Good - useful, but could be better</label>
+            <br>
+            <input type="radio" name="siterating" id="siteverygood" value="VeryGood" onclick="checkSiteRating()"/>
+            <label for="siteverygood">Very Good - a very useful site</label>
+        </fieldset>
+        <br>
+        <label for="comments">Please enter your comments about the website and possible improvements:<br>
+            <span id="characters">(10 characters remaining)</span>
+        </label>
+        <textarea name="comments" cols="50" rows="4" id="comments" onKeyUp="updateCharacters(10)"></textarea>
+        <br>
+         <div id="submission">
+            <!--<input type="reset" value="Reset" name="Reset" id="Reset" onclick="return confirm('Reset all fields?')"/>-->
+            <input type="reset" value="Reset" name="Reset" id="Reset" onclick="return resetForm()"/>
+            or
+            <input type="submit" value="Submit"/>
+        </div>
+        <div><span id="message"></span></div>
     
-     
 <div id="footer"><p>&copy; Fish~Tastic.All Right Reserved 2016 &nbsp; &nbsp; &nbsp; &nbsp; April 4,2016 10:35</p> </div>
 <!-- InstanceEndEditable -->
 </body>
