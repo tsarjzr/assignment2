@@ -1,0 +1,157 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/assignment2.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Fish-Tastic</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="assignment2.css" rel="stylesheet" type="text/css">
+<link href="css/assignment2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="header">
+<div id="headbackground">
+<img src="images/logo1.png" width="176" height="130" alt="logo" class="logo"/>
+<h1>Fish-Tastic</h1>
+</div>
+</div>
+<div id="navbar">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><div class="dropdown"><a href="about_us.html" class="dropbtn">About Us</a>
+        <div class="dropdown-content">
+        <a href="faq.html">FAQ</a>
+        <a href="about_us.html">Company Profile</a>
+        </div>
+        </div>
+        </li>
+		<li><div class="dropdown">
+		<a href="fresh_fish.html" class="dropbtn">Our Fish</a>
+		<div class="dropdown-content">
+        <a href="fresh_fish.html">Fresh Water Fish</a>
+        <a href="salt_fish.html">Salt Water Fish</a>
+        </div>
+		</div>
+		</li>
+		<li>
+		<div class="dropdown">
+		<a href="tanks.html" class="dropbtn">Products</a>
+		<div class="dropdown-content">
+        <a href="tanks.html">Fish Tanks</a>
+        <a href="meds.html">Medications</a>
+        <a href="foods.html">Fish Food</a>
+        <a href="deco.html">Aquarium Decorations</a>
+        </div>
+		</div>
+		</li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="contact_us.html">Contact Us</a></li>
+		<li><a href="service.html">Service</a></li>
+		<li><a href="feedback.html">Feedback</a></li>
+		<li><a href="">References</a></li>
+		<li style="float: right"><a href="order.html" class="active">Order Now</a></li>
+	</ul>
+</div>
+<div class="background">
+	<video id="vid" preload="auto" autoplay loop muted>
+	 <source src="backvid.mp4" type="video/mp4"/>
+	</video></div>
+<!-- InstanceBeginEditable name="EditRegion" -->
+	<div id="content">
+		<form id="order">
+			<table border="1" id="orderform">
+			<tr>
+			    <td>Name:</td>
+			    <td><input name="NAME" type="text" id="NAME3" value="" size="20" required /></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input name="Address" type="text" id="Address" value="" size="70" required /></td>
+			</tr>
+			<tr>
+			    <td>City:</td>
+			    <td><input name="CITY" type="text" id="CITY" size="30" maxlength="30" required/></td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><input name="STATE" type="text" id="STATE" size="30" maxlength="30" required /></td>
+			</tr>
+			<tr>
+				<td>Postal Code:</td>
+				<td><input name="POSTAL CODE" type="text" id="POSTAL CODE" size="15" maxlength="6" required /></td>
+			</tr>
+			<tr>
+				<td>Contact Number:</td>
+				<td><input name="CONTACT NUMBER" type="text" id="CONTACT NUMBER" size="20" maxlength="8" required /></td>
+			</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input name="EMAIL" type="text" id="EMAIL" size="40" required /></td>
+				</tr>
+				<tr>
+					<td>Item Code:</td>
+					<td>
+					<select name="code" id="itemcode">
+						<option value="">T01</option>
+						<option value="">T02</option>
+						<option value="">T03</option>
+						<option value="">T04</option>
+						<option value="">M01</option>
+						<option value="">M02</option>
+						<option value="">M03</option>
+						<option value="">B01</option>
+						<option value="">B02</option>
+						<option value="">B03</option>
+						<option value="">D01</option>
+						<option value="">D02</option>
+						<option value="">D03</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Quantity:</td>
+					<td>
+						<select id="quantity">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Payment Method:</td>
+					<td>
+						<label>
+            <input type="radio" name="PAYMENT METHOD" value="MASTER" id="PAYMENT METHOD_0" required />
+            MASTER CARD</label>
+          <label>
+            <input type="radio" name="PAYMENT METHOD" value="VISA" id="PAYMENT METHOD_1" required />
+			  VISA</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Credit Card Number:</td>
+					<td><input type="text" name="CREDIT CARD NUMBER" id="CREDIT CARD NUMBER" required /></td>
+				</tr>
+				<tr>
+					<td>CVV:</td>
+					<td><input name="CVV" type="text" id="CVV" size="10" maxlength="4" required /></td>
+				</tr>
+				<tr>
+					<td>Comment:</td>
+					<td><textarea name="Comments" id="Comments" cols="45" rows="5"></textarea></td>
+				</tr>
+			</table>
+			<input type="submit" name="submit" id="submit" value="Submit" />
+			 <p align="left"><a href="promotion.html"><img src="images/specialsbanneranimated.gif" width="196" height="106" alt="Special offer" /></a></p>
+		</form>
+	</div>
+<div id="footer"><p>&copy; Fish~Tastic.All Right Reserved 2016 &nbsp; &nbsp; &nbsp; &nbsp; April 4,2016 10:35</p> </div>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

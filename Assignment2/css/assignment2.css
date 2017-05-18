@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document */
-h1 {font-size: 70px;
-text-align: lef;}
-h1 ,p {
+h1 {
+	font-size: 70px;
+    text-align: lef;
 	font-family: Calibri;
 	font-weight: 850;
 }
@@ -136,16 +136,12 @@ p2{
 	min-height: 100%;
 	min-width: 100%;
 	opacity: 0.85;
-=======
-@charset "utf-8";
-/* CSS Document */
+}
 h1 {font-size: 70px;
 text-align: lef;}
 h1 ,p {
 	font-family: Calibri;
 	font-weight: 850;
-}
-#header{ 
 }
 .logo { float: left;}
 #navbar ul {
@@ -255,7 +251,11 @@ li, p { font-family: Calibri;}
 	min-height: 100%;
 	min-width: 100%;
 	opacity: 0.85;
->>>>>>> origin/master
+	}
+	#orderform td
+	{
+		text-align: left;
+	}
+.not p {
+	text-align: left;
 }
-.mouseOverImage1 a {background-image: url(../images/New folder/guppy 1.jpg);}
-.mouseOverImage1 a:hover {background-image: url(../images/New folder/guppy2.jpg);}
