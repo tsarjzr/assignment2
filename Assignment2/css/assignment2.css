@@ -19,6 +19,7 @@ h1 ,p {
 }
 .events{float: right}
 .call_us{float: right}
+p1{font-family: Calibri}
 #navbar li {
     float: left;
 	}
@@ -115,6 +116,16 @@ caption { font-size: 24px;}
 	left: 0;
 	bottom: 0;
 	right: 0;
+}
+p1{
+	font-size: 24px;
+	color: #fff;
+	font-family: Calibri;
+}
+p2{
+	font-size: 24px;
+	color:#000000;
+	font-family: Calibri;
 }
 #vid {
 	position: absolute;
@@ -246,3 +257,5 @@ li, p { font-family: Calibri;}
 	opacity: 0.85;
 >>>>>>> origin/master
 }
+.mouseOverImage1 a {background-image: url(../images/New folder/guppy 1.jpg);}
+.mouseOverImage1 a:hover {background-image: url(../images/New folder/guppy2.jpg);}
